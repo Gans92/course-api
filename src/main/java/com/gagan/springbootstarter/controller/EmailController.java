@@ -20,7 +20,7 @@ public class EmailController {
 		MimeMessage message = javaMail.createMimeMessage();
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 		try {
-			helper.setTo("gaganyv8@gmail.com");
+			helper.setTo("gagan**@gmail.com");
 			helper.setText("Hello Gagan, Texting from SprinBoot application.");
 			helper.setSubject("Email from Spring Boot Team");
 		}catch(MessagingException e) {
